@@ -1,19 +1,44 @@
 body {
-    background-color: white;
+    background-color: rgb(69, 194, 210);
 }
 
-.flex{
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+
+.amarelo {
+    padding: 30px;
+    margin:  50px;
+    background-color: rgb(210, 194, 69);
+    box-sizing: border-box;
+}
+
+
+.flexivel {
     display: flex;
 }
 
-.azul{
-    background-color: blue;
-    padding-right: 1000px;
-    padding:100px;
+
+.crescer {
+    padding-bottom: 300px;
 }
 
-.amarela{
-    background-color: rgb(251, 255, 0);
-    padding: 100px;
-    margin: 30px;
+
+.crescer2 {
+
+
+    padding-bottom:150px;
+}
+
+
+.alongar {
+    padding-right: 300px;
+}
+
+
+.alongar2 {
+    padding-right: 470px;
 }
